@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 400vh;}
+.first{
+    background-image: url('pexels-tima-miroshnichenko-5355704.jpg'); 
+    background-size: cover;
+    height: 100vh;
+}
+.second{
+    background-image: url('quang-tri-nguyen-VckdJzo7ig0-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.third{
+    background-image: url('pexels-pixabay-52527.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.forth{
+    background-image: url('4.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+iframe {
+	width: 100%;
+    height: 58%;
+}
+#left1 {
+position: absolute;
+top: 0.7cm;
+left: 1cm;}
+#left2 {
+position: absolute;
+top: 4cm;
+left: 6.5cm;}
+.book, .callus, .findus {
+  width: 23%;
+  text-align: right;
+    margin-top: 13px;
+    margin-right: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items to the right side */
+}
+#call:hover {
+    cursor: pointer;}
